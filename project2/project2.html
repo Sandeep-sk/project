@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 2 using flex box</title>
+    <style>
+        /* image put in header::before css not in body background to give good performance 
+        to read content above no matter what type of background  */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+        
+            height: 100vh;
+            width: 100vw;
+            color: wheat;
+        }
+        header::before{
+            content:"";
+            background: url("anonymous.jpg") no-repeat center center/cover;
+            /* here only image above apply not work alone 
+            need to give z-index and for that we have to give position and height,width:  */
+            margin: 0px;
+            padding: 0px;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: -1;
+            opacity:0.3;
+        }
+        #navbar{
+            display: flex;
+            flex-direction: column;
+            /* it not work becasue in column direcction justify-content: center; */
+            align-items: center;
+            text-decoration: none;
+        }
+       
+        .ulclass{
+            display:flex;
+            flex-direction: row;
+            list-style: none;
+        }
+        .ulclass a{
+            color: white;
+            padding:22px;
+            color: white;
+        }
+        h2{margin: 0px;
+           font-size: 3rem;}
+        
+        #section {
+            /* border: 2px solid white; */
+            margin: 0px 231px;
+            height: 275px;
+            display: flex;
+            flex-direction: column;
+            /* all flex items in put in center  */
+            align-items: center;  
+            /* all item content like text in center  */
+            text-align: center;
+            /* to put the content in center of box  */
+            justify-content: center;
+        }
+        /* before means conceptually it place before everything in section and vice-versa for after */
+        /* section::before{
+            content:"this is content";
+        }
+        section::after{
+            content:"this is content";
+        } */
+
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <nav id="navbar">
+            <ul class="ulclass">
+                <li><a href=""> HOME</a></li>
+                <li><a href=""> ABOUT US</a></li>
+                <li><a href=""> CONTACT US</a></li>
+                <li><a href=""> BLOG</a></li>
+            </ul>
+        </nav>
+    </header>
+            <section id="section">
+                <h2>LET'S HACK THE WORLD</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae corporis odio pariatur nulla praesentium eos quam repellat possimus neque velit laboriosam, debitis blanditiis molestiae dignissimos a quaerat. Officia, temporibus itaque.</p>
+            </section>
+</body>
+
+</html>

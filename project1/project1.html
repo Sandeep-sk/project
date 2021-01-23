@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 1 using html and css</title>
+    <style>
+        body {
+            /* css reset  */
+            margin: 0;
+            padding: 0;
+            background: url("g.jpg");
+            color: white;
+        }
+
+        .header {}
+
+        .left {
+            /* border: 2px solid red; */
+            width: 17%;
+            display: inline-block;
+            position: absolute;
+            top: 23px;
+            left: 20px;
+
+        }
+
+        .left img {
+            width: 27%;
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .left p {
+            margin-top: 0px;
+        }
+
+        .mid {
+            /* border: 2px solid red; */
+            display: block;
+            width: 60%;
+            margin: 23px auto;
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 23px;
+            right: 20px;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            padding: 8px 16px;
+        }
+
+        .navbar input {
+            border: 1px solid black;
+            border-radius: 3px;
+            background-color: rgb(62 10 10);
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            /* color: red; */
+            /* color: rgb(62 10 10); */
+            color: #ded706;
+        }
+
+        .btn {
+            border: 1px solid white;
+            border-radius: 11px;
+            font-size: medium;
+            background-color: rgb(62 10 10);
+            color: white;
+            border: none;
+        }
+
+        .btn:hover {
+            /* color: red; */
+            color: #ded706;
+            /* text-decoration: underline; */
+            cursor: pointer;
+            background-color: rosybrown;
+
+        }
+
+        .landingpage {
+            /* border: 2px solid red; */
+            margin: 64px 24px;
+            padding: 2% 1%;
+            width: 26%;
+        }
+
+        .landingpage h1 {
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 0px;
+        }
+
+        .landingpage h1:hover {
+            /* color: rgb(62 10 10); */
+            color: #ded706;
+        }
+
+        .container input {
+            border-radius: 7px;
+            padding: 1%;
+            display: block;
+            width: 111px;
+            margin: 12px auto;
+            background-color: rgb(62 10 10);
+            border: none;
+        }
+
+        .navbar input:hover,
+        .btn:hover,
+        .container input:hover {
+            background-color: white;
+        }
+
+        .left p:hover {
+            /* color: rgb(62 10 10); */
+            color: #ded706;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left" id="box1">
+            <img src="logo.jpg" alt="">
+            <p>Power Gym</p>
+        </div>
+        <div class="mid" id="box2">
+            <ul class="navbar">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">FITNESS GUIDE</a></li>
+                <li><a href="">CONTACT US</a></li>
+                <input type="search" placeholder="Search here">
+            </ul>
+        </div>
+        <div class="right" id="box3">
+            <button class="btn">Sign in</button>
+            <button class="btn">Setting</button>
+        </div>
+    </header>
+    <div class="landingpage">
+        <h1>Join Now</h1>
+        <div class="container">
+            <form action="python.py">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+                <input type="email" placeholder="Email">
+                <input type="submit">
+
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

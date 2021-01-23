@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: overlay;
+}
+body{
+    background: url("bg2.jpg") no-repeat center/cover;
+}
+.container{
+    height: 100vh;
+}
+#nav{
+ display:flex;
+ align-items: center;
+ background-color: grey;
+ height: 70px;
+}
+#nav .ul{
+    border: 2px solid grey;
+    display:flex;
+    align-items: center;
+
+}
+#nav .ul li{
+    list-style: none;
+    padding: 0px 25px;
+    
+}
+#nav .ul li a{
+    text-decoration: none;   
+    font-size: 21px;
+    color: white;
+}
+#nav .ul li a:hover{
+    color: red;   
+}
+
+#idinput{
+    margin-left: 503px;
+    margin-right: 12px;
+    border-radius: 7px;
+    border-style: double;
+    height: 26px;
+}
+
+.addtextcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 29px;
+}
+.addtextcontainer h1{
+   font-size: 39px;
+   color: black;
+}
+.addtextcontainer h1:hover{
+    color: white;
+}
+#sectioninside{
+    text-align: center;
+}
+.mainbox{
+    border: 2px solid red;
+    display:flex;
+    flex-direction: column;
+}
+.box {
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius: 18px;
+    flex-direction: column;
+    height: 206px;
+    width: 229px;
+    margin: 22px 9px;
+    text-align: center;
+    word-break:break-all;
+    overflow-y: auto;
+}
+ 
+.box p{
+    height: 160px;
+}
+
+    
+#footer{
+    background-color:  grey;
+    grid-area: footername;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    color: white;
+
+} 
+
+/* utility calsses */
+.btn{
+    cursor: pointer;
+    color: grey;
+    margin: 0px 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    border-style: double;
+
+    
+}
+.btn:hover{
+    color:red;
+}
