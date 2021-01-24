@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*------------- navbar------------------ */
+#nav{
+    display:flex;
+    align-items: center;
+    height: 70px;
+    background-color:#2f6b5f;
+    justify-content: space-between;
+   }
+   #nav .ul{
+       display:flex;
+       align-items: center;
+   
+   }
+   .logo{
+    font-size: 20px;
+    color: currentcolor;
+    font-family: serif;
+    border-radius: 4px;
+    border: 2px solid gold;
+    color: gold;
+}
+.logo:hover{
+    color: white;
+    border: none;
+}
+   #nav .ul li{
+       list-style: none;
+       padding: 15px;
+       
+   }
+   #nav .ul li a{
+       text-decoration: none;   
+       font-size: 21px;
+       color: white;
+   }
+   #nav .ul li a:hover{
+       color: red;   
+   }
+   
+   #idinput{
+    margin-left: 503px;
+    margin-right: 12px;
+    border-radius: 7px;
+    border-style: double;
+    height: 17px;
+}
+ /* -------success or faliure message ------------ */
+ .message{
+    text-align: center;
+    background: #66BB6A;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ /*-------- form section----------  */
+.container{
+        background: url('bg.png') no-repeat center/cover;
+        height: 733px;
+    }
+    form{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 78px;
+    }
+    .formdiv{
+        border: 2px solid lightgray;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 33px;
+        border-radius: 10px;
+        box-shadow: 0px 6px 19px#080606;
+        color: white;
+ }
+  .classforinput{
+      margin: 9px auto;
+      width: 237px;
+  }
+
+
+ #date{
+     padding-right: 6px;
+ }
+ #medium{
+    width: 213px;
+    height: 21px;
+ }
+ #country{
+    width: 224px;
+ }
+ /* --------footer------------- */
+footer{
+    color: gold;
+    background-color: #2f6b5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 39px;
+}
+
+/* // utility class  */
+.btn{
+    color: white;
+    border-radius: 4px;
+    background-color: #4b5071;
+}
+.btn:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}

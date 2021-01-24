@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="nav" class="navbar">
+        <ul class="ul">
+            <div class="logo">Fast-Travel</div>
+            <li class="items"><a href="/">Home</a></li>
+            <li class="items"><a href="/">Contact us</a></li>
+            <li class="items"><a href="/">About us</a></li>
+            <li class="items"><a href="/">Blog</a></li>
+        </ul>
+        <input type="text" id="idinput" placeholder="Search here">
+        <button type="submit" class="btn">Sign in</button>
+        <button type="submit" class="btn">Login</button>
+    </nav>
+    <div class="messageComes"></div>
+    <section>
+        <div class="container">
+            <form action="" id='formId'>
+                <div class="formdiv">
+
+                    <label for="name">Name:
+                        <input type="text" name="name" id="name" class="classforinput" placeholder="Full Name">
+                    </label>
+                    <h5 id="nameError">FIRST CHARACTER MUST BE(_,a-z,A-Z)</h5>
+                    <label for="email">Email:
+                        <input type="text" name="email" id="email" class="classforinput" placeholder="Email">
+                    </label>
+                    <h5 id="emailError">NOT VALID TRY AGAIN(NOT STARTING WITH A NUMBER)</h5>
+
+                    <label for="phone">Phone:
+                        <input type="text" name="phone" id="phone" class="classforinput" placeholder="Phone Number">
+                    </label>
+                    <h5 id="phoneError">USE 10 DIGITS ONLY(NOT STARTING WITH ZERO)</h5>
+
+                    <label for="Date">Date:
+                        <input type="date" name="date" id="date" class="classforinput">
+                    </label>
+                    <label for="medium">Travel via:
+                        <select name="transportation" id="medium" class="classforinput">
+                            <option value="air">Aeroplain</option>
+                            <option value="water">WaterShips</option>
+                            <option value="ground">Car</option>
+                        </select>
+                    </label>
+                    <label for="country">Country:
+                        <select name="country" id="country" class="classforinput">
+                            <option value="India">India</option>
+                            <option value="US">US</option>
+                            <option value="China">China</option>
+                            <option value="Germany">Germany</option>
+                            <option value="Korea">Korea</option>
+                        </select>
+                    </label>
+                    <label for="textarea" class="classforinput">Address:
+                        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                    </label>
+                    <button type="submit" id='btn' class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        All rights reserved &copy; 2021 Fast-Travel.com
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>
