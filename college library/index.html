@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="ulclass">
+            <li class="items"><a href="">Home</a></li>
+            <li class="items"><a href="">About Us</a></li>
+            <li class="items"><a href="">Contact Us</a></li>
+            <li class="items"><a href="">Blog</a></li>
+        </ul>
+        <div>
+            <input type="text" placeholder="Search here">
+            <button class="btn">Sign Up</button>
+            <button class="btn">Login</button>
+        </div>
+    </nav>
+    <div class="messageComes"></div>
+    <section class="mainsection">
+        <h1>Welcome to Our College Library</h1>
+        <form id='formid' class='formclass'>
+            <div>
+                <input type="text" name="text" id="book" placeholder="Book Name">
+                <input type="text" name="text" id="author" placeholder="Author Name">
+                <label for="fiction">
+                    <input type="radio" name="radio" value="Fiction" id="fiction">Fiction
+                </label>
+                <label for="cooking">
+                    <input type="radio" name="radio" value="Cooking" id="cooking">Cooking
+                </label>
+                <label for="Biography">
+                    <input type="radio" name="radio" value="Biography" id="biography">Biography
+                </label>
+                <label for="comic">
+                    <input type="radio" name="radio" value="Comic" id="comic">Comic
+                </label>
+                <label for="mystery">
+                    <input type="radio" name="radio" value="Mystery" id="mystery">Mystery
+                </label>
+                <label for="adventure">
+                    <input type="radio" name="radio" value="Adventure" id="adventure">Adventure
+                </label>
+            </div>
+            <button type="submit" id='submitbtn' class="btn">Add Book</button>
+        </form>
+    </section>
+    <section class="tablesection">
+        <table class="table" id='idtable'>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody class="tbody" id="tbody">
+            </tbody>
+        </table>
+        </div>
+    </section>
+    <div id="defaultmessage"></div>
+    <footer>
+        All rights reversed &copy; 2021;
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+    background-color:  #009879;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color:red;
+}
+nav input {
+    border: groove;
+    border-radius: 8px;
+}
+
+nav div button{
+    padding: 0px 7px;
+}
+
+.message{
+    background-color: burlywood;
+    color: red;
+    text-align: center;
+}
+.message h3{
+    font-size: 17px;
+    font-weight: normal;
+}
+.mainsection{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px;
+
+}
+
+.mainsection > h1 {
+    font-size: xx-large;
+    color: black;
+}
+
+.mainsection form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 267px;
+}
+
+
+    .formclass div {
+        border: 3px solid #009879;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: self-start;
+        -webkit-text-stroke-width: medium;
+        padding: 26px 93px;
+        border-radius: 14px;
+        border-inline: none;
+    }
+
+
+.formclass div input {
+    padding: 4px 18px;
+    margin: 4px auto;
+    border-radius: 4px;
+}
+
+.tablesection{
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.table th,
+.table td {
+    padding: 12px 15px;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3;
+}
+.table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+.default {
+    font-size: 56px;
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+    transform-origin: top;
+    transform: skewX(23deg);
+}
+ 
+footer{
+    height: 46px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: wheat;
+}
+/* utility class  */
+.btn {
+        border: groove;
+        background-color: #6f6f41;
+        color: white;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        color: red;
+        background-color: blanchedalmond;
+    }
+

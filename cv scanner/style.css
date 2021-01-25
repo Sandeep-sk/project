@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*------------- navbar------------------ */
+#nav{
+    display:flex;
+    align-items: center;
+    height: 70px;
+    background-color:black;
+    justify-content: space-between;
+   }
+   #nav .ul{
+       display:flex;
+       align-items: center;
+   
+   }
+   .logo{
+    font-size: 20px;
+    color: currentcolor;
+    font-family: serif;
+    border-radius: 4px;
+    border: 2px solid gold;
+    color: gold;
+}
+.logo:hover{
+    color: white;
+    border: none;
+}
+   #nav .ul li{
+       list-style: none;
+       padding: 15px;
+       
+   }
+   #nav .ul li a{
+       text-decoration: none;   
+       font-size: 21px;
+       color: white;
+   }
+   #nav .ul li a:hover{
+       color: red;   
+   }
+   
+   #idinput{
+    margin-left: 503px;
+    margin-right: 12px;
+    border-radius: 7px;
+    border-style: double;
+    height: 17px;
+}
+ /* -------success or faliure message ------------ */
+ .message{
+    text-align: center;
+    background: #66BB6A;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+  /* details ---------- */
+  
+  section{
+      text-align: center;
+      padding: 33px;
+  }
+  .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       height: 533px;
+    }
+   .container ul{
+       width: 333px;
+   }
+   .container ul li{
+    border: 1px solid grey;
+    width: 320px;
+    height: 33px;
+    margin: 10px;
+    padding: 3px 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 0px darkgrey;
+}
+
+  #img{
+    height: 222px;
+    width: 333px;
+    border: 2px solid #d4bdbd;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px lightgrey;
+  }
+  #btn{
+      width: 106px;
+  }
+ /* --------footer------------- */
+footer{
+    color: gold;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    height: 39px;
+}
+
+/* // utility class  */
+.btn{
+    color: white;
+    border-radius: 4px;
+    background-color: #4b5071;
+}
+.btn:hover{
+    color: red;
+    background-color: white;
+    cursor: pointer;
+}
+
