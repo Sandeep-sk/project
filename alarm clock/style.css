@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* navbar */
+#nav{
+    display:flex;
+    align-items: center;
+    background-color: black;
+    height: 70px;
+    justify-content: space-between;
+   }
+   #nav .ul{
+       display:flex;
+       align-items: center;
+   
+   }
+   #nav .ul li{
+       list-style: none;
+       padding: 15px;
+       
+   }
+   #nav .ul li a{
+       text-decoration: none;   
+       font-size: 21px;
+       color: white;
+   }
+   #nav .ul li a:hover{
+       color: red;   
+   }
+   #idinput{
+    border-radius: 7px;
+    border-style: double;
+    height: 17px;
+}    
+.message{
+    text-align: center;
+    background: #66BB6A;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+/* setction  */
+.sectionclass{
+    background: url('bg.jpg') no-repeat center/cover;
+    border: 2px solid white;
+    height: 770px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: coral;
+}
+#currentTime{
+    color: red;
+}
+#heading{
+    color: darkblue;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#date{
+    padding: 3px 18px;
+    margin: 0px 6px;
+}
+
+.main #snoozebtn{
+    background-color: #141dc3;
+}
+.main #canclebtn{
+    background-color: red;
+}
+#footer{
+    background-color:  black;
+    grid-area: footername;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    color: white;
+
+} 
+
+/* utility calsses */
+.btn{
+    cursor: pointer;
+    color: grey;
+    margin: 0px 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    border-style: double;
+
+    
+}
+.btn:hover{
+    color:red;
+}
