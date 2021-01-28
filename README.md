@@ -1,1 +1,1 @@
-projectS using HTML,CSS and JAVASCRIPT
+projects using HTML,CSS and JAVASCRIPT
